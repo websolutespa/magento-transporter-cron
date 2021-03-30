@@ -1,0 +1,33 @@
+{
+  "name": "websolutespa/magento-transporter-cron",
+  "description": "",
+  "type": "magento2-module",
+  "require": {
+    "magento/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Danilo Argentiero",
+      "email": "argentiero.danilo@gmail.com",
+      "homepage": "https://www.linkedin.com/in/daniloargentiero/",
+      "role": "Software Architect"
+    },
+    {
+      "name": "Riccardo Ugolini",
+      "email": "riccardo.ugolini@gmail.com",
+      "homepage": "https://www.linkedin.com/in/riccardougolini/",
+      "role": "Software Architect"
+    }
+  ],
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Websolute\\TransporterCron\\": ""
+    }
+  }
+}
