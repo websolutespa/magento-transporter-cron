@@ -3,7 +3,9 @@
   "description": "",
   "type": "magento2-module",
   "require": {
-    "magento/magento-composer-installer": "*"
+    "magento/magento-composer-installer": "*",
+    "websolutespa/magento-transporter-base": "^1.0",
+    "websolutespa/magento-cron-string-validator": "^1.0"
   },
   "authors": [
     {
